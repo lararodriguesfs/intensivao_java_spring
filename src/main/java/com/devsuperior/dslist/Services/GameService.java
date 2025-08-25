@@ -36,4 +36,7 @@ public class GameService {
         return result.stream().map(x -> new GameMinDto(x)).toList();
 
     }
+
+
+
 }
